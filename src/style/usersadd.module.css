@@ -1,0 +1,27 @@
+.input_field{
+    display: block;
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+}
+
+.btnadd{
+    background-color: skyblue;
+    color: white;
+    border: 0;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add_user{
+    margin-top: 100px;
+    text-align: -webkit-center;
+}
+
+.selected_image{
+    width: 30%;
+    align-items: center;
+}

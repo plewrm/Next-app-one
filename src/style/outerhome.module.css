@@ -1,0 +1,16 @@
+.p{
+    color:white;
+}
+
+.bgcolorimage {
+    background-image: url("https://wallpapercave.com/wp/VmZHnTO.jpg");
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+    /* Other background properties can be added here */
+    /* height: 80vh;  */
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* background-attachment: fixed; */
+    padding: 6rem 0;
+  }

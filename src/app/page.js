@@ -36,11 +36,11 @@ export default function Home() {
               navbarScroll
             ></Nav>
             <Nav className="ml-auto">
-              <Nav.Link as={Link} href="/about">About</Nav.Link>
-              <Nav.Link as={Link} href="/study">Study</Nav.Link>
               <NavDropdown title="Product" id="navbarScrollingDropdown">
                 <Nav.Link as={Link} href="/productlist">Product</Nav.Link>
               </NavDropdown>
+              <Nav.Link as={Link} href="/about">About</Nav.Link>
+              <Nav.Link as={Link} href="/study">Study</Nav.Link>
               <NavDropdown title="Student" id="navbarScrollingDropdown">
                 <NavDropdown.Item as={Link} href="/contact/studcontact">Student</NavDropdown.Item>
                 <NavDropdown.Item as={Link} href="/authorization">
@@ -72,8 +72,9 @@ export default function Home() {
             </div>
             <div className="col-12 mt-5 order-lg-1 order-0 col-md-12 col-lg-6">
               <h1 className={roboto.className} style={titleColor} >Welcome to Next World, Hello Visit Change</h1>
-              <p className={outerhome.p} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque similique inventore?
-                Blanditiis delectus ab, alias ea iste rerum repellendus sint quidem cum beatae voluptas temporibus omnis ut est corrupti.
+              <p className={outerhome.p}>Used by some of the world's largest companies, Next.js enables you to
+                create full-stack Web applications by extending the latest React features, and integrating
+                powerful Rust-based JavaScript tooling for the fastest builds.
               </p>
 
               <div className="text-center w-100 text-md-start">
